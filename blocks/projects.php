@@ -23,7 +23,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 	<div class="button-group filter-button-group">
 
-		<button data-filter="*" class="is-checked"><?php echo esc_html__( 'All', 'wayako' ); ?></button>
+		<button data-filter="*" class="is-checked"><?php echo esc_html__( 'All', 'wayako-core' ); ?></button>
 
 		<?php
 		$portfolio_cat_terms = get_terms(
