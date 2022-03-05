@@ -28,7 +28,7 @@ if ( !defined( 'WAYAKO_CORE_PLUGIN_URI' ) ) {
 
 // Includes
 $wayako_core_includes = array(
-//	'/enqueue.php',
+	'/enqueue.php',
 	'/custom-post-types.php',
 	'/taxonomies.php',
 	'/blocks.php',
