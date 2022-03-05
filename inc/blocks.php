@@ -25,9 +25,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'hero',
 				'title'           => __( 'Hero', 'wayako-core' ),
 				'description'     => __( 'Hero', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/hero.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/hero.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Hero', 'header' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -37,9 +37,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'service',
 				'title'           => __( 'Service', 'wayako-core' ),
 				'description'     => __( 'Service', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/service.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/service.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Service', 'Services' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -49,9 +49,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'pricing',
 				'title'           => __( 'Pricing', 'wayako-core' ),
 				'description'     => __( 'Pricing', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/pricing.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/pricing.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Pricing', 'Price' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -61,9 +61,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'breadcrumb',
 				'title'           => __( 'Breadcrumb', 'wayako-core' ),
 				'description'     => __( 'Breadcrumb', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/breadcrumb.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/breadcrumb.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Fil ariane', 'Breadcrumb' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -73,9 +73,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'projects',
 				'title'           => __( 'Projects', 'wayako-core' ),
 				'description'     => __( 'Projects', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/projects.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/projects.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Project', 'Projects' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -85,9 +85,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'projects_slider',
 				'title'           => __( 'Projects slider', 'wayako-core' ),
 				'description'     => __( 'Projects slider', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/projects-slider.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/projects-slider.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Project slider', 'Projects', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -97,9 +97,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'image_box',
 				'title'           => __( 'Image box', 'wayako-core' ),
 				'description'     => __( 'Image box', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/image-box.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/image-box.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Image box' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
@@ -109,9 +109,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'name'            => 'testimonials_slider',
 				'title'           => __( 'Testimonials slider', 'wayako-core' ),
 				'description'     => __( 'Testimonials slider', 'wayako-core' ),
-				'render_template' => get_template_directory() . '/blocks/testimonials-slider.php',
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/testimonials-slider.php',
 				'category'        => 'formatting',
-				'icon'            => file_get_contents( get_template_directory() . '/assets/img/picto-w-icon.svg' ),
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Testimonials slider', 'Testimonials', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
 			)
 		);
