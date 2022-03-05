@@ -2,7 +2,7 @@
 /**
  * Wayako core enqueue scripts
  *
- * @package Wayako
+ * @package Wayako_Core
  */
 
 // Exit if accessed directly.

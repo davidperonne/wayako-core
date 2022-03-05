@@ -7,7 +7,7 @@
  * @param  bool        $is_preview  True during AJAX preview.
  * @param  int|string  $post_id     The post ID this block is saved to.
  *
- * @package Wayako
+ * @package Wayako_Core
  */
 
 defined( 'ABSPATH' ) || die();
