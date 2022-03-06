@@ -14,7 +14,7 @@ defined( 'ABSPATH' ) || die();
 
 // Build the basic block id and class.
 $block_id     = ! empty( $block['anchor'] ) ? sanitize_title( $block['anchor'] ) : 'block_hero_' . $block['id'];
-$block_class  = 'block-hero alignfull';
+$block_class  = 'block-hero alignfull entry-header';
 $block_class .= ! empty( $block['className'] ) ? ' ' . sanitize_html_class( $block['className'] ) : '';
 $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['align'] ) : '';
 ?>
@@ -30,7 +30,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 			<?php endif; ?>
 
 			<?php if ( $title = get_field( 'title' ) ) : ?>
-				<h1 class="block-hero__title"><?php echo esc_html( $title ); ?></h1>
+				<h1 class="block-hero__title entry-title"><?php echo esc_html( $title ); ?></h1>
 			<?php endif; ?>
 
 			<?php if ( function_exists( 'seopress_display_breadcrumbs' ) ) { seopress_display_breadcrumbs(); } ?>
