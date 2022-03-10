@@ -78,44 +78,17 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 		</div>
 
-		<script type="text/javascript">            
-			/*jQuery(document).ready(function($) {
-
-				// init Isotope
-				var $grid = $('.grid').isotope({
-					itemSelector: '.grid-item',
-					layoutMode: 'fitRows',
-				});
-
-				// filter items on button click
-				$('.filter-button-group').on( 'click', 'button', function() {
-					var filterValue = $(this).attr('data-filter');
-					$grid.isotope({ filter: filterValue });
-				});
-
-				// change is-checked class on buttons
-				$('.button-group').each( function( i, buttonGroup ) {
-					var $buttonGroup = $( buttonGroup );
-					$buttonGroup.on( 'click', 'button', function() {
-						$buttonGroup.find('.is-checked').removeClass('is-checked');
-						$(this).addClass('is-checked');
-					});
-				});
-			});*/
-
-
+		<script type="text/javascript">
 			document.addEventListener("DOMContentLoaded", function(event) {
 
-				// external js: isotope.pkgd.js
-
-					// init Isotope
-					var iso = new Isotope( '.grid', {
+				// init Isotope
+				var iso = new Isotope( '.grid', {
 					itemSelector: '.grid-item',
 					layoutMode: 'fitRows'
-					});
+				});
 
-					// filter functions
-					var filterFns = {
+				// filter functions
+				var filterFns = {
 					// show if number is greater than 50
 					numberGreaterThan50: function( itemElem ) {
 						var number = itemElem.querySelector('.number').textContent;
@@ -126,11 +99,11 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 						var name = itemElem.querySelector('.name').textContent;
 						return name.match( /ium$/ );
 					}
-					};
+				};
 
-					// bind filter button click
-					var filtersElem = document.querySelector('.filter-button-group');
-					filtersElem.addEventListener( 'click', function( event ) {
+				// bind filter button click
+				var filtersElem = document.querySelector('.filter-button-group');
+				filtersElem.addEventListener( 'click', function( event ) {
 					// only work with buttons
 					if ( !matchesSelector( event.target, 'button' ) ) {
 						return;
@@ -139,16 +112,16 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 					// use matching filter function
 					filterValue = filterFns[ filterValue ] || filterValue;
 					iso.arrange({ filter: filterValue });
-					});
+				});
 
-					// change is-checked class on buttons
-					var buttonGroups = document.querySelectorAll('.button-group');
-					for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+				// change is-checked class on buttons
+				var buttonGroups = document.querySelectorAll('.button-group');
+				for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
 					var buttonGroup = buttonGroups[i];
 					radioButtonGroup( buttonGroup );
-					}
+				}
 
-					function radioButtonGroup( buttonGroup ) {
+				function radioButtonGroup( buttonGroup ) {
 					buttonGroup.addEventListener( 'click', function( event ) {
 						// only work with buttons
 						if ( !matchesSelector( event.target, 'button' ) ) {
@@ -157,11 +130,8 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 						buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
 						event.target.classList.add('is-checked');
 					});
-					}
-
-
+				}
 			});
-
 		</script>
 
 	<?php else : ?>
