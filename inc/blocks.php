@@ -116,6 +116,18 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 			)
 		);
 
+		acf_register_block_type(
+			array(
+				'name'            => 'logos_slider',
+				'title'           => __( 'Logos slider', 'wayako-core' ),
+				'description'     => __( 'Logos slider', 'wayako-core' ),
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/logos-slider.php',
+				'category'        => 'formatting',
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
+				'keywords'        => array( __( 'Logos slider', 'Logos', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
+			)
+		);
+
 	}
 
 endif;
