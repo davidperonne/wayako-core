@@ -79,7 +79,9 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 		</div>
 
 		<script type="text/javascript">            
-			jQuery(document).ready(function($) {
+//			jQuery(document).ready(function($) {
+
+			document.addEventListener("DOMContentLoaded", function(event) {
 
 				// init Isotope
 				var $grid = $('.grid').isotope({
