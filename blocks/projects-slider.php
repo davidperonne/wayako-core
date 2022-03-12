@@ -38,7 +38,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 					<?php while ( $portfolio->have_posts() ) : $portfolio->the_post(); ?>
 
 						<li class="splide__slide">
-							<a class="" href="<?php echo esc_url( get_permalink() ); ?>">
+							<a class="card" href="<?php echo esc_url( get_permalink() ); ?>">
 								<figure>
 									<?php echo get_the_post_thumbnail( get_the_ID(), 'medium_large', array( 'class' => 'img-cover' ) ); ?>
 									<figcaption>										
