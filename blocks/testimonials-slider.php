@@ -63,6 +63,9 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 				type   : 'loop',
 				perPage: 2,
 				perMove: 1,
+				autoplay: true,
+				speed: number = 1000,
+				interval: number = 5000,
 				pagination: false,
 				arrowPath: 'm13.5 7.01 13 13m-13 13 13-13',
 			} );
