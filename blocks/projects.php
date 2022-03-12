@@ -69,6 +69,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 							<?php echo get_the_post_thumbnail( get_the_ID(), 'medium_large', array( 'class' => 'img-cover' ) ); ?>
 							<figcaption>										
 								<?php the_title( '<h3 class="grid-item__title">', '</h3>' ); ?>
+								<?php the_excerpt(); ?>
 							</figcaption>
 						</figure>	
 					</a>
