@@ -55,8 +55,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 	<?php endif; ?>
 
-	<script type="text/javascript">            
-		//jQuery(document).ready(function($) {
+	<script type="text/javascript">
 		document.addEventListener("DOMContentLoaded", function(event) {
 
 			var splide = new Splide( '.testimonials', {

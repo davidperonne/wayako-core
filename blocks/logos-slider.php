@@ -32,22 +32,17 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 						<li class="splide__slide">
 							<div class="splide__slide-inner">
-
 								<?php if ( $link = get_sub_field( 'link' ) ) : ?>
 									<a href="<?php echo esc_url( $link ); ?>" target="_blank" rel="noopener, noreferrer">
 								<?php endif; ?>
-
 								<?php
 								$image = get_sub_field( 'image' );
 								if ( $image ) : ?>
 									<img src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_attr( $image['alt'] ); ?>" />
 								<?php endif; ?>
-
-
 								<?php if ( $link = get_sub_field( 'link' ) ) : ?>
 									</a>
 								<?php endif; ?>
-
 							</div>
 						</li>
 
@@ -59,8 +54,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 	<?php endif; ?>
 
-	<script type="text/javascript">            
-		//jQuery(document).ready(function($) {
+	<script type="text/javascript">
 		document.addEventListener("DOMContentLoaded", function(event) {
 
 			var splide = new Splide( '.logos', {
@@ -72,7 +66,6 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 				interval: number = 5000,
 				pagination: false,
 				arrows: false,
-			//	arrowPath: 'm13.5 7.01 13 13m-13 13 13-13',
 				breakpoints: {
 					640: {
 						perPage: 2,

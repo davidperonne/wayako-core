@@ -46,6 +46,18 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 
 		acf_register_block_type(
 			array(
+				'name'            => 'services',
+				'title'           => __( 'Services', 'wayako-core' ),
+				'description'     => __( 'Services', 'wayako-core' ),
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/services.php',
+				'category'        => 'formatting',
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
+				'keywords'        => array( __( 'Services', 'Services' ), __( 'Plugin', 'wayako-core' ) ),
+			)
+		);
+
+		acf_register_block_type(
+			array(
 				'name'            => 'pricing',
 				'title'           => __( 'Pricing', 'wayako-core' ),
 				'description'     => __( 'Pricing', 'wayako-core' ),
