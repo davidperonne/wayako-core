@@ -32,7 +32,7 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 			)
 		);
 
-		acf_register_block_type(
+	/*	acf_register_block_type(
 			array(
 				'name'            => 'service',
 				'title'           => __( 'Service', 'wayako-core' ),
@@ -42,7 +42,7 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Service', 'Services' ), __( 'Plugin', 'wayako-core' ) ),
 			)
-		);
+		);*/
 
 		acf_register_block_type(
 			array(
