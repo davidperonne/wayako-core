@@ -29,6 +29,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Hero', 'header' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -41,6 +44,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Service', 'Services' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);*/
 
@@ -53,6 +59,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Services', 'Services' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -65,6 +74,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Pricing', 'Price' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -77,6 +89,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Fil ariane', 'Breadcrumb' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -89,6 +104,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Project', 'Projects' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -101,6 +119,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Project slider', 'Projects', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -113,6 +134,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Image box' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -125,6 +149,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Testimonials slider', 'Testimonials', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
@@ -137,6 +164,9 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				'category'        => 'formatting',
 				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
 				'keywords'        => array( __( 'Logos slider', 'Logos', 'Slider' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
 			)
 		);
 
