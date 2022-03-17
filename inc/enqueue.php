@@ -16,7 +16,7 @@ if ( ! function_exists( 'wayako_core_scripts' ) ) :
 	function wayako_core_scripts() {
 		$theme_version = wp_get_theme()->get( 'Version' );
 
-		//wp_enqueue_style( 'wayako-core-styles', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core.min.css', array(), $theme_version );
+		wp_enqueue_style( 'wayako-core-styles', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core.min.css', array(), $theme_version );
 
 		if ( is_singular( 'post' ) || is_page() ) {
 
