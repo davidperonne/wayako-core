@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=wayako-core.min.css.map */
+.splide__arrow{background:transparent;border:0;color:#fff;cursor:pointer;position:absolute;top:50%;width:3em;height:3em}.splide__arrow--prev{left:1rem;-webkit-transform:translateY(-50%);transform:translateY(-50%);padding:.75rem;opacity:1}.splide__arrow--next{right:1rem;-webkit-transform:translateY(-50%);transform:translateY(-50%);padding:.75rem;opacity:1}.splide__arrow svg{fill:none;stroke:currentColor;stroke-linecap:square;stroke-width:8px;height:2.2rem;vertical-align:middle;width:2.2rem}.splide__arrow svg{stroke:white}.splide__arrow:hover{background-color:white}.splide__arrow:hover svg{stroke:var(--wayako-color2)}
+/*# sourceMappingURL=wayako-core.min.css.map */
