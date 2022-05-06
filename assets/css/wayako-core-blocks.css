@@ -141,6 +141,11 @@
   text-align: center;
 }
 
+.block-pricing__title {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .block-pricing__sub-title {
   font-size: 1rem;
   margin-bottom: 3rem;
