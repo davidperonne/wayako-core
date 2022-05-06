@@ -2,8 +2,8 @@
 
 .block-projects-slider {
     padding-left: 25rem;
-    margin-top: 4rem;
-    margin-bottom: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     .splide {
         .splide__slide {
             width: 33%;
@@ -17,5 +17,14 @@
                 right: 0.5rem;
             }
         }
+    }
+}
+
+
+/**/
+
+.block-editor {
+    .block-projects-slider {
+        padding-left: 0;
     }
 }

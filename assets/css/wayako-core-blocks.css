@@ -251,8 +251,8 @@
 /* Block projects slider */
 .block-projects-slider {
   padding-left: 25rem;
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .block-projects-slider .splide .splide__slide {
@@ -266,6 +266,11 @@
 
 .block-projects-slider .splide .splide__arrows .splide__arrow--next {
   right: 0.5rem;
+}
+
+/**/
+.block-editor .block-projects-slider {
+  padding-left: 0;
 }
 
 /* Block image box */
