@@ -26,7 +26,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 		<?php while ( have_rows( 'services' ) ) :
 			the_row(); ?>
 
-			<div class="container block-services__service">
+			<div class="container block-services__service fade-up">
 
 				<?php
 				$image = get_sub_field( 'image' );

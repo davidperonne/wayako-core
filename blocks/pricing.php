@@ -21,7 +21,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 
 <div id="<?php echo esc_attr( $block_id ); ?>" class="<?php echo esc_attr( $block_class ); ?>">
 
-	<div class="container-- block-pricing__inner">
+	<div class="container-- block-pricing__inner fade-left">
 
 		<?php if ( $title = get_field( 'title' ) ) : ?>
 			<h3 class="block-pricing__title h4"><?php echo esc_html( $title ); ?></h3>
