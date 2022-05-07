@@ -44,6 +44,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 	<?php
 	$args = array(
 		'post_type' => 'portfolio',
+		'posts_per_page' => -1,
 
 	);
 	$portfolio = new WP_Query( $args );
