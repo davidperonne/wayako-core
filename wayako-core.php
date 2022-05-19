@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-
+define( 'WAYAKO_CORE_VERSION', '1.0.0' );
 
 // Get plugin Path directory
 if ( !defined( 'WAYAKO_CORE_PLUGIN_PATH' ) ) {
