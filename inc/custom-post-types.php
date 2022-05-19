@@ -46,7 +46,7 @@ function create_portfolio_cpt() {
 	);
 	$rewrite = array(
 		'slug' => 'portfolio',
-		'with_front' => true,
+		'with_front' => false,
 		'pages' => true,
 		'feeds' => true,
 	);
@@ -61,7 +61,7 @@ function create_portfolio_cpt() {
 			'thumbnail',
 			'excerpt',
 		),
-		'taxonomies'          => array( 'book-cat'),
+		'taxonomies'          => array( 'portfolio-cat'),
 		'public'              => true,
 		'show_ui'             => true,
 		'show_in_menu'        => true,
