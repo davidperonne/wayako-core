@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wayako-core\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/support/theme/_s\n"
-"POT-Creation-Date: 2022-03-05 10:36+0100\n"
-"PO-Revision-Date: 2022-03-05 10:36+0100\n"
+"POT-Creation-Date: 2022-05-19 07:48+0200\n"
+"PO-Revision-Date: 2022-05-19 07:51+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -26,55 +26,60 @@ msgstr ""
 
 #: blocks/projects.php:26
 msgid "All"
-msgstr ""
+msgstr "Tous"
 
 #: inc/blocks.php:26 inc/blocks.php:27 inc/blocks.php:31
 msgid "Hero"
 msgstr ""
 
-#: inc/blocks.php:31 inc/blocks.php:43 inc/blocks.php:55 inc/blocks.php:67
-#: inc/blocks.php:79 inc/blocks.php:91 inc/blocks.php:103 inc/blocks.php:115
+#: inc/blocks.php:31 inc/blocks.php:61 inc/blocks.php:76 inc/blocks.php:91
+#: inc/blocks.php:106 inc/blocks.php:124 inc/blocks.php:143 inc/blocks.php:158
+#: inc/blocks.php:177
 msgid "Plugin"
 msgstr ""
 
-#: inc/blocks.php:38 inc/blocks.php:39 inc/blocks.php:43
-msgid "Service"
+#: inc/blocks.php:56 inc/blocks.php:57 inc/blocks.php:61
+msgid "Services"
 msgstr ""
 
-#: inc/blocks.php:50 inc/blocks.php:51 inc/blocks.php:55
+#: inc/blocks.php:71 inc/blocks.php:72 inc/blocks.php:76
 msgid "Pricing"
 msgstr ""
 
-#: inc/blocks.php:62 inc/blocks.php:63
+#: inc/blocks.php:86 inc/blocks.php:87
 msgid "Breadcrumb"
 msgstr ""
 
-#: inc/blocks.php:67
+#: inc/blocks.php:91
 msgid "Fil ariane"
 msgstr ""
 
-#: inc/blocks.php:74 inc/blocks.php:75
+#: inc/blocks.php:101 inc/blocks.php:102
 msgid "Projects"
 msgstr ""
 
-#: inc/blocks.php:79
+#: inc/blocks.php:106
 msgid "Project"
 msgstr ""
 
-#: inc/blocks.php:86 inc/blocks.php:87
+#: inc/blocks.php:119 inc/blocks.php:120
 msgid "Projects slider"
 msgstr ""
 
-#: inc/blocks.php:91
+#: inc/blocks.php:124
 msgid "Project slider"
 msgstr ""
 
-#: inc/blocks.php:98 inc/blocks.php:99 inc/blocks.php:103
+#: inc/blocks.php:138 inc/blocks.php:139 inc/blocks.php:143
 msgid "Image box"
 msgstr ""
 
-#: inc/blocks.php:110 inc/blocks.php:111 inc/blocks.php:115
+#: inc/blocks.php:153 inc/blocks.php:154 inc/blocks.php:158
 msgid "Testimonials slider"
+msgstr ""
+
+#: inc/blocks.php:172 inc/blocks.php:173 inc/blocks.php:177
+msgid "Logos slider"
 msgstr ""
 
 #: inc/custom-post-types.php:18
@@ -97,99 +102,103 @@ msgctxt "Add New on Toolbar"
 msgid "Portfolio"
 msgstr ""
 
-#: inc/custom-post-types.php:22
-msgid "Archives"
-msgstr ""
-
 #: inc/custom-post-types.php:23
-msgid "Attributs"
-msgstr ""
+msgid "Item Archives"
+msgstr "Archives"
 
 #: inc/custom-post-types.php:24
-msgid "Parent:"
-msgstr ""
+msgid "Item Attributes"
+msgstr "Attributs"
 
-#: inc/custom-post-types.php:25
-msgid "Tous les Portfolio"
-msgstr ""
+#: inc/custom-post-types.php:25 inc/taxonomies.php:23
+msgid "Parent Item:"
+msgstr "Parent :"
 
-#: inc/custom-post-types.php:26
-msgid "Ajouter un ..."
-msgstr ""
+#: inc/custom-post-types.php:26 inc/taxonomies.php:21
+msgid "All Items"
+msgstr "Tous les éléments"
 
-#: inc/custom-post-types.php:27
-msgid "Ajouter"
-msgstr ""
+#: inc/custom-post-types.php:27 inc/taxonomies.php:25
+msgid "Add New Item"
+msgstr "Ajouter"
 
 #: inc/custom-post-types.php:28
-msgid "New ..."
-msgstr ""
+msgid "Add New"
+msgstr "Ajouter"
 
 #: inc/custom-post-types.php:29
-msgid "Editer"
-msgstr ""
+msgid "New Item"
+msgstr "Nouveau"
 
-#: inc/custom-post-types.php:30
-msgid "Mettre à jour"
-msgstr ""
+#: inc/custom-post-types.php:30 inc/taxonomies.php:26
+msgid "Edit Item"
+msgstr "Modifier"
 
-#: inc/custom-post-types.php:31
-msgid "Voir"
-msgstr ""
+#: inc/custom-post-types.php:31 inc/taxonomies.php:27
+msgid "Update Item"
+msgstr "Mettre à jour"
 
-#: inc/custom-post-types.php:32
-msgid "Voir tous les ..."
-msgstr ""
+#: inc/custom-post-types.php:32 inc/taxonomies.php:28
+msgid "View Item"
+msgstr "Voir"
 
 #: inc/custom-post-types.php:33
-msgid "Recherche merchant"
-msgstr ""
+msgid "View Items"
+msgstr "Voir tous les éléments"
 
 #: inc/custom-post-types.php:34
-msgid "Non trouvé"
-msgstr ""
+#, fuzzy
+#| msgid "Search"
+msgid "Search Item"
+msgstr "Recherche"
 
 #: inc/custom-post-types.php:35
-msgid "Non trouvé en corbeille"
-msgstr ""
+msgid "Not found"
+msgstr "Non trouvé"
 
 #: inc/custom-post-types.php:36
-msgid "Image illustration"
-msgstr ""
+msgid "Not found in Trash"
+msgstr "Rien trouvé dans la corbeille"
 
 #: inc/custom-post-types.php:37
-msgid "Ajouter image illustration"
-msgstr ""
+msgid "Featured Image"
+msgstr "Image mise en avant"
 
 #: inc/custom-post-types.php:38
-msgid "Retirer image illustration"
-msgstr ""
+msgid "Set featured image"
+msgstr "Définir image mise en avant"
 
 #: inc/custom-post-types.php:39
-msgid "Utiliser image illustration"
-msgstr ""
+msgid "Remove featured image"
+msgstr "Retirer image mise en avant"
 
 #: inc/custom-post-types.php:40
-msgid "Ajouter dans cette fiche merchant"
-msgstr ""
+msgid "Use as featured image"
+msgstr "Utiliser comme image mise en avant"
 
 #: inc/custom-post-types.php:41
-msgid "Charger dans cette fiche merchant"
+msgid "Insert into item"
 msgstr ""
 
 #: inc/custom-post-types.php:42
-msgid "Liste des ..."
+msgid "Uploaded to this item"
 msgstr ""
 
-#: inc/custom-post-types.php:43
-msgid "... list navigation"
+#: inc/custom-post-types.php:43 inc/taxonomies.php:36
+msgid "Items list"
+msgstr "Liste d’éléments"
+
+#: inc/custom-post-types.php:44 inc/taxonomies.php:37
+#, fuzzy
+#| msgid "Main Navigation"
+msgid "Items list navigation"
+msgstr "Navigation principale"
+
+#: inc/custom-post-types.php:45
+msgid "Filter items list"
 msgstr ""
 
-#: inc/custom-post-types.php:44
-msgid "Filter ... list"
-msgstr ""
-
-#: inc/custom-post-types.php:53 inc/custom-post-types.php:54
+#: inc/custom-post-types.php:54 inc/custom-post-types.php:55
 msgid "Portfolio"
 msgstr ""
 
@@ -207,39 +216,45 @@ msgstr ""
 msgid "Search portfolio categories"
 msgstr ""
 
-#: inc/taxonomies.php:20
-msgid "All portfolio categories"
-msgstr ""
-
-#: inc/taxonomies.php:21
-msgid "Parent theme"
-msgstr ""
-
 #: inc/taxonomies.php:22
-msgid "Parent Categorie:"
-msgstr ""
-
-#: inc/taxonomies.php:23
-msgid "Edit Categorie"
+msgid "Parent Item"
 msgstr ""
 
 #: inc/taxonomies.php:24
-msgid "Update Categorie"
+msgid "New Item Name"
 msgstr ""
 
-#: inc/taxonomies.php:25
-msgid "Add new Categorie"
+#: inc/taxonomies.php:29
+msgid "Separate items with commas"
 msgstr ""
 
-#: inc/taxonomies.php:26
-msgid "New category name"
+#: inc/taxonomies.php:30
+msgid "Add or remove items"
 msgstr ""
 
-#: inc/taxonomies.php:27
-msgid "Catégorie"
+#: inc/taxonomies.php:31
+msgid "Choose from the most used"
 msgstr ""
 
-#: inc/taxonomies.php:36
+#: inc/taxonomies.php:32
+msgid "Popular Items"
+msgstr ""
+
+#: inc/taxonomies.php:33
+#, fuzzy
+#| msgid "Search"
+msgid "Search Items"
+msgstr "Recherche"
+
+#: inc/taxonomies.php:34
+msgid "Not Found"
+msgstr "Non trouvé"
+
+#: inc/taxonomies.php:35
+msgid "No items"
+msgstr ""
+
+#: inc/taxonomies.php:46
 msgid "Portfolio categories"
 msgstr ""
 
@@ -298,9 +313,6 @@ msgstr ""
 #~ msgid "Let's meet up"
 #~ msgstr "Rencontrons-nous"
 
-#~ msgid "Main Navigation"
-#~ msgstr "Navigation principale"
-
 #~ msgid "Theme options"
 #~ msgstr "Options du thème"
 
@@ -355,10 +367,6 @@ msgstr ""
 #~ msgid "% Comments"
 #~ msgstr "% commentaires"
 
-#, php-format
-#~ msgid "Edit %s"
-#~ msgstr "Modifier %s"
-
 #~ msgid "Find out more"
 #~ msgstr "En savoir plus"
 
@@ -371,9 +379,6 @@ msgstr ""
 #, php-format
 #~ msgid "Search Results for: %s"
 #~ msgstr "Résultats de recherche pour : %s"
-
-#~ msgid "Search"
-#~ msgstr "Recherche"
 
 #~ msgid "Search &hellip;"
 #~ msgstr "Recherche &hellip;"

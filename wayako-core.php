@@ -26,6 +26,39 @@ if ( !defined( 'WAYAKO_CORE_PLUGIN_URI' ) ) {
 
 
 
+
+
+/**
+ * wayako_core_init function
+ *
+ * @return void
+ */
+function wayako_core_init() {
+	load_plugin_textdomain( 'wayako-core', false, WAYAKO_CORE_PLUGIN_PATH . '/languages' );
+}
+add_action( 'plugins_loaded', 'wayako_core_init', 10 );
+
+/**
+ * wayako_core_textdomain function
+ *
+ * @param [type] $mofile
+ * @param [type] $domain
+ * @return void
+ */
+function wayako_core_textdomain( $mofile, $domain ) {
+	if ( 'wayako-core' === $domain && false !== strpos( $mofile, WP_LANG_DIR . '/plugins/' ) ) {
+		$locale = apply_filters( 'plugin_locale', determine_locale(), $domain );
+		$mofile = WAYAKO_CORE_PLUGIN_PATH . '/languages/' . $domain . '-' . $locale . '.mo';
+	}
+	return $mofile;
+}
+add_filter( 'load_textdomain_mofile', 'wayako_core_textdomain', 10, 2 );
+
+
+
+
+
+
 // Includes
 $wayako_core_includes = array(
 	'/enqueue.php',
