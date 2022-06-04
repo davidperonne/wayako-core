@@ -1,0 +1,20 @@
+/* Block projects details */
+
+.block-projects-details {
+    padding: 1.5rem;
+    background-color: #F6F7FC;
+    margin-bottom: 2rem;
+    span {
+        display: block;
+        &:not(:last-child) {
+            margin-bottom: 0.75rem;
+        }
+    }
+}
+
+
+/**/
+
+.block-editor {
+    .block-projects-details {}
+}
