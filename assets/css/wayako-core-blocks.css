@@ -278,6 +278,22 @@
   padding-left: 0;
 }
 
+/* Block projects details */
+.block-projects-details {
+  padding: 1.5rem;
+  background-color: #F6F7FC;
+  margin-bottom: 2rem;
+}
+
+.block-projects-details span {
+  display: block;
+}
+
+.block-projects-details span:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+
+/**/
 /* Block image box */
 .block-image-box {
   display: -webkit-box;

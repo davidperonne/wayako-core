@@ -115,6 +115,23 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 
 		acf_register_block_type(
 			array(
+				'name'            => 'projects-details',
+				'title'           => __( 'Projects details', 'wayako-core' ),
+				'description'     => __( 'Projects details', 'wayako-core' ),
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/projects-details.php',
+				'category'        => 'formatting',
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
+				'keywords'        => array( __( 'Project details', 'Projects' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
+			)
+		);
+
+
+
+		acf_register_block_type(
+			array(
 				'name'            => 'projects_slider',
 				'title'           => __( 'Projects slider', 'wayako-core' ),
 				'description'     => __( 'Projects slider', 'wayako-core' ),
