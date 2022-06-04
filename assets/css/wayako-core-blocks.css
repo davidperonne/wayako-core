@@ -282,6 +282,7 @@
 .block-projects-details {
   padding: 1.5rem;
   background-color: #F6F7FC;
+  border-radius: 16px;
   margin-bottom: 2rem;
 }
 
@@ -291,6 +292,27 @@
 
 .block-projects-details span:not(:last-child) {
   margin-bottom: 0.75rem;
+}
+
+/**/
+/* Block projects share */
+.block-projects-share {
+  margin-bottom: 2rem;
+}
+
+.block-projects-share ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block-projects-share ul .wp-block-button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.block-projects-share ul .wp-block-button .wp-block-button__link {
+  padding: 8px 15px;
 }
 
 /**/

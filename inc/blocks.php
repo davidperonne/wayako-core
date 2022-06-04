@@ -127,6 +127,21 @@ if ( ! function_exists( 'wayako_register_acf_block_types' ) ) :
 				},
 			)
 		);
+		
+		acf_register_block_type(
+			array(
+				'name'            => 'projects-share',
+				'title'           => __( 'Projects share', 'wayako-core' ),
+				'description'     => __( 'Projects share', 'wayako-core' ),
+				'render_template' => WAYAKO_CORE_PLUGIN_PATH . '/blocks/projects-share.php',
+				'category'        => 'formatting',
+				'icon'            => file_get_contents( WAYAKO_CORE_PLUGIN_PATH . '/assets/img/picto-w-icon.svg' ),
+				'keywords'        => array( __( 'Project share', 'Projects' ), __( 'Plugin', 'wayako-core' ) ),
+				'enqueue_assets'  => function() {
+					wp_enqueue_style( 'wayako-core-blocks', WAYAKO_CORE_PLUGIN_URI . '/assets/css/wayako-core-blocks.min.css' );
+				},
+			)
+		);
 
 
 

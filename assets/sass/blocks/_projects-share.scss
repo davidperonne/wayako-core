@@ -1,0 +1,24 @@
+/* Block projects share */
+
+.block-projects-share {
+    margin-bottom: 2rem;
+    ul {
+        list-style: none;
+        display: flex;
+        .wp-block-button {
+            &:not(:last-child) {
+                margin-right: 1rem;
+            }
+            .wp-block-button__link {
+                padding: 8px 15px;
+            }
+        }
+    }
+}
+
+
+/**/
+
+.block-editor {
+    .block-projects-share {}
+}
