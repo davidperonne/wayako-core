@@ -38,17 +38,17 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 	?>
 	<ul class="wp-block-buttons">
 		<li class="wp-block-button is-style-outline">
-			<a class="wp-block-button__link" href="<?php echo $facebook_url; ?>" target="_blank" rel="nofollow">
+			<a class="wp-block-button__link" href="<?php echo $facebook_url; ?>" target="_blank" rel="nofollow" title="Partager sur Facebook">
 				<span class=""><?php esc_html_e( 'Facebook', 'wayako-core' ); ?></span>
 			</a>
 		</li>
 		<li class="wp-block-button is-style-outline">
-			<a class="wp-block-button__link" href="<?php echo $twitter_url; ?>" target="_blank" rel="nofollow">
+			<a class="wp-block-button__link" href="<?php echo $twitter_url; ?>" target="_blank" rel="nofollow" title="Partager sur Twitter">
 				<span class=""><?php esc_html_e( 'Twitter', 'wayako-core' ); ?></span>
 			</a>
 		</li>
 		<li class="wp-block-button is-style-outline">
-			<a class="wp-block-button__link" href="<?php echo $linkedin_url; ?>" target="_blank" rel="nofollow">
+			<a class="wp-block-button__link" href="<?php echo $linkedin_url; ?>" target="_blank" rel="nofollow" title="Partager sur Linkedin">
 				<span class=""><?php esc_html_e( 'Linkedin', 'wayako-core' ); ?></span>
 			</a>
 		</li>
