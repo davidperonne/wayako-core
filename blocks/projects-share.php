@@ -36,6 +36,7 @@ $block_class .= ! empty( $block['align'] ) ? ' align' . sanitize_key( $block['al
 	$linkedin_url = 'https://www.linkedin.com/shareArticle?mini=true&url=' . $sb_url . '&amp;title=' . $sb_title;
 
 	?>
+
 	<ul class="wp-block-buttons">
 		<li class="wp-block-button is-style-outline">
 			<a class="wp-block-button__link" href="<?php echo $facebook_url; ?>" target="_blank" rel="nofollow" title="Partager sur Facebook">
